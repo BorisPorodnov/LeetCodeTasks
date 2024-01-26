@@ -5,6 +5,11 @@ import java.util.Map;
 
 public class RomanToInteger {
 
+    public static void main(String[] args) {
+
+        System.out.println("2929");
+    }
+
     // initial
     Map<Character, Integer> map = new HashMap<>();
 
@@ -18,7 +23,7 @@ public class RomanToInteger {
         map.put('M', 1000);
     }
 
-    public int romanToInt(String s) {
+    public  int romanToInt(String s) {
         int result = 0;
         int prev = 0;
         //обход обекта, c право на лево, с проверкой о том чему равен символ
